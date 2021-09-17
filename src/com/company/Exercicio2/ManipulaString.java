@@ -25,14 +25,14 @@ public class ManipulaString {
 
         public static void palindromo (String nome){
 
-            String texto;
-            String aux;
+            String palavra;
+            String segundaP;
             System.out.println("Digite a Palavra em maiusculo ou minusculo!" );
             Scanner tecladoReverse = new Scanner(System.in);
-            texto = tecladoReverse.next();
-            System.out.print("A Palavra: " +texto);
-            aux = new StringBuffer(texto).reverse().toString();
-            if (texto.equals(aux)) {
+            palavra = tecladoReverse.next();
+            System.out.print("A Palavra: " +palavra);
+            segundaP = new StringBuffer(palavra).reverse().toString();
+            if (palavra.equals(segundaP)) {
                 System.out.println("  é palindromo");
             } else {
                 System.out.println(" Não é Palindromo");
