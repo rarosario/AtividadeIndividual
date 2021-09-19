@@ -27,12 +27,12 @@ public class ManipulaString {
 
             String palavra;
             String segundaP;
-            System.out.println("Digite a Palavra em maiusculo ou minusculo!" );
+            System.out.println("Digite a Palavra");
             Scanner tecladoReverse = new Scanner(System.in);
             palavra = tecladoReverse.next();
-            System.out.print("A Palavra: " +palavra);
+            System.out.print("A Palavra: " + palavra);
             segundaP = new StringBuffer(palavra).reverse().toString();
-            if (palavra.equals(segundaP)) {
+            if (palavra.equalsIgnoreCase(segundaP)) {
                 System.out.println("  é palindromo");
             } else {
                 System.out.println(" Não é Palindromo");

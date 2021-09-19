@@ -36,7 +36,7 @@ public class Main {
 
 
         System.out.println("\n---------- Exercicio 3 ------------");
-        System.out.println("Position-->"+agenda.buscarPessoa("Camila"));
+        System.out.println("Esta na posição numero "+agenda.buscarPessoa("Camila"));
 
         System.out.println("\n ---------- Exercicio 4 ----------");
         agenda.exibirTodaAgenda();

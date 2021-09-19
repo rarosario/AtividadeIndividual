@@ -16,7 +16,6 @@ public class Agenda {
             Pessoa pessoa = listaPessoa.get(rem);
             if (pessoa.getNome().equals(nome)) {
                 listaPessoa.remove(pessoa);
-//                break;
             }
         }
     }
